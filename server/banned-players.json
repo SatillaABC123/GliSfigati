@@ -1,0 +1,58 @@
+[
+  {
+    "uuid": "5cb6ab59-73ec-3936-8a68-04535ecc7630",
+    "name": "ip",
+    "created": "2024-03-19 11:53:38 +0000",
+    "source": "SatillaABC123",
+    "expires": "forever",
+    "reason": "GAYRADDI"
+  },
+  {
+    "uuid": "828964fa-44ca-35e0-92de-e7b6db29e2c6",
+    "name": "MATTEO_",
+    "created": "2024-03-23 16:01:42 +0000",
+    "source": "SatillaABC123",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "ceacb43d-5509-3ec1-8469-1c6f8529cb76",
+    "name": "GAYRADDI",
+    "created": "2024-03-19 11:53:46 +0000",
+    "source": "SatillaABC123",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "1a32e40e-1c1e-3d6f-b1f7-f974df1c1f43",
+    "name": "AKDE2",
+    "created": "2024-03-20 21:16:22 +0000",
+    "source": "Admin",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "415352ea-c897-33f3-91bc-3089c70a6595",
+    "name": "AiutantediAmrit2",
+    "created": "2024-03-18 12:32:29 +0000",
+    "source": "SatillaABC123",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "4a0fe43c-a6cb-337b-8be3-b7b49612cbdb",
+    "name": "MATTEO",
+    "created": "2024-03-23 16:02:08 +0000",
+    "source": "SatillaABC123",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "314721ed-0b2f-30e6-a6ea-f3208420f734",
+    "name": "AKDE",
+    "created": "2024-03-20 21:16:18 +0000",
+    "source": "Admin",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

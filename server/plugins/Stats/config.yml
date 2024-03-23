@@ -1,0 +1,41 @@
+mysql:
+  url: jdbc:mysql://localhost:3306/stats5
+  username: username
+  password: password
+useRabbitMq: false
+server-id: 54c53fd7-9bc0-4980-9f63-fefd3f2eefd3
+MySQL-User: root
+MySQL-Pass: p4ssw0rd
+MySQL-Host: localhost
+MySQL-Port: 3306
+MySQL-Database: minecraft
+MySQL-Prefix: Stats_
+ignoreCreative: false
+version: 1.36
+update: true
+debug: false
+sendStatsToGlobalServer: true
+signs:
+  insta-update: true
+  update-interval: 10
+disabledStats:
+- StatName1
+commandList:
+- Playtime
+- Block break
+- Block place
+- Death
+- Kill
+- Joins
+- Move
+useBetaFunctions: false
+snapshots:
+  enabled: true
+  timeToLive: 1W
+  interval: 1D
+  previous: 0
+  cross-server:
+    enabled: false
+    mainServerHost: localhost
+    mainServerPort: 25500
+    isMainServer: false

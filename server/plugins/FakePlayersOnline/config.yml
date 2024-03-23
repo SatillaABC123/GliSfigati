@@ -1,0 +1,28 @@
+general:
+  check-updates: true
+  language: english
+  language-save: false
+  npc-list-update-time: 60
+real-players:
+  enable-override: true
+  prefix: '&6'
+  prefix-red: '&4'
+fake-players:
+  enabled: true
+  prefix: '&e'
+  list:
+  - BrunoGay
+citizens:
+  enabled: true
+  prefix: '&3'
+fake-max-players:
+  enabled: true
+  fake-max-online: 20
+fake-server-list:
+  enabled: true
+  motd:
+    enabled: true
+    value: '&4FakePlayersOnline &6installed!'
+  constant-online-count:
+    enabled: false
+    players-online: 10

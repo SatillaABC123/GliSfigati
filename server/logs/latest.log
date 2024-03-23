@@ -1,0 +1,609 @@
+[14:18:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:18:01] [Server thread/INFO]: Loading properties
+[14:18:01] [Server thread/INFO]: Default game type: SURVIVAL
+[14:18:01] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:18:01] [Server thread/INFO]: Debug logging is disabled
+[14:18:01] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[14:18:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[14:18:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:18:01] [Server thread/INFO]: Data value allowed items: 
+[14:18:01] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[14:18:01] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[14:18:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[14:18:01] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[14:18:01] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[14:18:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[14:18:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[14:18:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[14:18:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[14:18:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:18:01] [Server thread/INFO]: Generating keypair
+[14:18:02] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[14:18:02] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[14:18:02] [Server thread/INFO]: Using default channel type
+[14:18:02] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller-1.1.5.jar' and `plugins/EaglerPluginInstaller.jar' in `plugins'
+[14:18:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:18:02] [Server thread/INFO]: [FakePlayersOnline] Loading FakePlayersOnline v0.1.0
+[14:18:02] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[14:18:02] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[14:18:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[14:18:02] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
+[14:18:02] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[14:18:02] [Server thread/INFO]: [Shop] Loading Shop v1.3
+[14:18:02] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[14:18:02] [Server thread/INFO]: [Pvpsticks] Loading Pvpsticks v2.1.0
+[14:18:02] [Server thread/INFO]: [BattleArena] Loading BattleArena v3.8.8.3.3
+[14:18:02] [Server thread/INFO]: [Stats] Loading Stats v5.3.6
+[14:18:02] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[14:18:02] [Server thread/INFO]: [ToolStats] Loading ToolStats v1.1.4
+[14:18:02] [Server thread/INFO]: [SignShop] Loading SignShop v2.6.2
+[14:18:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:18:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:18:02] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:18:02] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:18:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:18:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:18:02] [Server thread/INFO]: Preparing level "world"
+[14:18:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:18:02] [Server thread/INFO]: Mob Spawn Range: 4
+[14:18:02] [Server thread/INFO]: Anti X-Ray: false
+[14:18:02] [Server thread/INFO]: 	Engine Mode: 1
+[14:18:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:18:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:18:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:18:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:18:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:18:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:18:02] [Server thread/INFO]: Random Lighting Updates: false
+[14:18:02] [Server thread/INFO]: Structure Info Saving: true
+[14:18:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:18:02] [Server thread/INFO]: Max Entity Collisions: 8
+[14:18:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:18:02] [Server thread/INFO]: Max TNT Explosions: 100
+[14:18:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:18:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:18:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:18:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:18:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:18:02] [Server thread/INFO]: View Distance: 4
+[14:18:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:18:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:18:02] [Server thread/INFO]: Clear tick list: false
+[14:18:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:18:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:18:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:18:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:18:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:18:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:18:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:18:02] [Server thread/INFO]: Water over lava flow speed: 5
+[14:18:02] [Server thread/INFO]: Fix TNT cannons: false
+[14:18:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:18:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:18:02] [Server thread/INFO]: World async lighting: false
+[14:18:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:18:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:18:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:18:02] [Server thread/INFO]: Mob Spawn Range: 4
+[14:18:02] [Server thread/INFO]: Anti X-Ray: false
+[14:18:02] [Server thread/INFO]: 	Engine Mode: 1
+[14:18:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:18:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:18:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:18:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:18:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:18:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:18:02] [Server thread/INFO]: Random Lighting Updates: false
+[14:18:02] [Server thread/INFO]: Structure Info Saving: true
+[14:18:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:18:02] [Server thread/INFO]: Max Entity Collisions: 8
+[14:18:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:18:02] [Server thread/INFO]: Max TNT Explosions: 100
+[14:18:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:18:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:18:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:18:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:18:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:18:02] [Server thread/INFO]: View Distance: 4
+[14:18:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:18:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:18:02] [Server thread/INFO]: Clear tick list: false
+[14:18:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:18:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:18:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:18:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:18:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:18:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:18:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:18:02] [Server thread/INFO]: Water over lava flow speed: 5
+[14:18:02] [Server thread/INFO]: Fix TNT cannons: false
+[14:18:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:18:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:18:02] [Server thread/INFO]: World async lighting: false
+[14:18:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:18:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:18:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:18:02] [Server thread/INFO]: Mob Spawn Range: 4
+[14:18:02] [Server thread/INFO]: Anti X-Ray: false
+[14:18:02] [Server thread/INFO]: 	Engine Mode: 1
+[14:18:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:18:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:18:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:18:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:18:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:18:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:18:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:18:02] [Server thread/INFO]: Random Lighting Updates: false
+[14:18:02] [Server thread/INFO]: Structure Info Saving: true
+[14:18:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:18:02] [Server thread/INFO]: Max Entity Collisions: 8
+[14:18:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:18:02] [Server thread/INFO]: Max TNT Explosions: 100
+[14:18:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:18:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:18:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:18:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:18:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:18:02] [Server thread/INFO]: View Distance: 4
+[14:18:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:18:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:18:02] [Server thread/INFO]: Clear tick list: false
+[14:18:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:18:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:18:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:18:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:18:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:18:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:18:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:18:03] [Server thread/INFO]: Water over lava flow speed: 5
+[14:18:03] [Server thread/INFO]: Fix TNT cannons: false
+[14:18:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:18:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:18:03] [Server thread/INFO]: World async lighting: false
+[14:18:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:18:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:18:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5063083965888943715)
+[14:18:04] [Server thread/INFO]: Preparing spawn area: 40%
+[14:18:04] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5063083965888943715)
+[14:18:05] [Server thread/INFO]: Preparing spawn area: 73%
+[14:18:06] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5063083965888943715)
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] Enabling FakePlayersOnline v0.1.0
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] Citizens is not found!
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] ProtocolLib is not found!
+[14:18:06] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_8_R3.Packet201PlayerInfo
+
+[14:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:92)
+
+[14:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87)
+
+[14:18:06] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+
+[14:18:06] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+
+[14:18:06] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+
+[14:18:06] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:421)
+
+[14:18:06] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:412)
+
+[14:18:06] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FPOcbo.nmsClass(FPOcbo.java:114)
+
+[14:18:06] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FPOcbo.init(FPOcbo.java:87)
+
+[14:18:06] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FakePlayersOnline.onEnable(FakePlayersOnline.java:111)
+
+[14:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[14:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[14:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[14:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[14:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[14:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[14:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[14:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[14:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[14:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[14:18:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] +---------------------------------------------------------------------+
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] + WARNING!!! THIS PLUGIN IS NOT COMPATIBLE WITH CRAFTBUKKIT v1.8.R3    +
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] + FakePlayersOnline will not work correctly. Please check updates at: +
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] + http://dev.bukkit.org/server-mods/fakeplayers/                      +
+[14:18:06] [Server thread/INFO]: [FakePlayersOnline] +---------------------------------------------------------------------+
+[14:18:06] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[14:18:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[14:18:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[14:18:06] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[14:18:06] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[14:18:06] [Server thread/INFO]: Check 1 passed
+
+[14:18:07] [Server thread/INFO]: Check 3 passed
+
+[14:18:07] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:07] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:07] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[14:18:07] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[14:18:07] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[14:18:07] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[14:18:07] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[14:18:07] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:07] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:07] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[14:18:07] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:18:07] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[14:18:07] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
+[14:18:07] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
+[14:18:07] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[14:18:07] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:18:07] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:18:07] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:18:07] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:18:07] [Server thread/INFO]: [Shop] Enabling Shop v1.3
+[14:18:07] [Server thread/INFO]: [Shop] Shops will use emerald as the physical economy on the server.
+
+[14:18:07] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[14:18:07] [Server thread/INFO]: [Pvpsticks] Enabling Pvpsticks v2.1.0
+[14:18:07] [Server thread/INFO]: [Pvpsticks] Checking for updates...........
+[14:18:08] [Server thread/INFO]: [Pvpsticks] Pvpsticks is enabled!
+[14:18:08] [Server thread/INFO]: [BattleArena] Enabling BattleArena v3.8.8.3.3
+[14:18:08] [Server thread/INFO]: [0;31;22m[BattleArena] [0;33;22mv3.8.8.3.3[0;37;1m enabling![m
+
+[14:18:08] [Server thread/INFO]: [BattleArena] BattleTracker not detected, not tracking wins
+[14:18:08] [Server thread/INFO]: [BattleArena] WorldEdit detected.
+[14:18:08] [Server thread/INFO]: [BattleArena] no additional Arena modules
+[14:18:08] [Server thread/INFO]: [BattleArena] registering classes: gladiator, archer, monk
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded Skirmish params
+[14:18:08] [Server thread/INFO]: [BattleArena] No arenas found for   arenatype=Skirmish  cs=
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded Duel params
+[14:18:08] [Server thread/INFO]: [BattleArena] No arenas found for   arenatype=Duel  cs=
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded DeathMatch params
+[14:18:08] [Server thread/INFO]: [BattleArena] No arenas found for   arenatype=DeathMatch  cs=
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded FreeForAll params
+[14:18:08] [Server thread/INFO]: [BattleArena] No arenas found for   arenatype=FreeForAll  cs=
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded Arena params
+[14:18:08] [Server thread/INFO]: [BattleArena] No arenas found for   arenatype=Arena  cs=
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded Colosseum params
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded Colosseum arenas: duello
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded Battleground params
+[14:18:08] [Server thread/INFO]: [BattleArena] No arenas found for   arenatype=Battleground  cs=
+[14:18:08] [Server thread/INFO]: [BattleArena] Loaded Tourney params
+[14:18:08] [Server thread/INFO]: [0;31;22m[BattleArena] [0;33;22mv3.8.8.3.3[0;37;1m enabled![m
+
+[14:18:08] [Server thread/INFO]: [Stats] Enabling Stats v5.3.6
+[14:18:08] [Timer-2/INFO]: [PluginUpdater] BattleArena v3.8.8.3.3 checking for updates
+
+[14:18:08] [Server thread/INFO]: [Stats] Stats is not yet configured
+[14:18:08] [Server thread/INFO]: [Stats] Stats has generated a config.yml file
+[14:18:08] [Server thread/INFO]: [Stats] Please configure Stats and then restart your server
+[14:18:08] [Server thread/INFO]: [Stats] Disabling Stats v5.3.6
+[14:18:08] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[14:18:08] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[14:18:08] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:08] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:08] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+
+[14:18:08] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:08] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:08] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[14:18:08] [Server thread/INFO]: Check 1 passed
+
+[14:18:09] [Server thread/INFO]: Check 3 passed
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[14:18:09] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[14:18:09] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[14:18:09] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[14:18:09] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+
+[14:18:09] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: --------------------------------------------[m
+
+[14:18:09] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.1.4
+[14:18:09] [Server thread/INFO]: [SignShop] Enabling SignShop v2.6.2
+[14:18:09] [Server thread/INFO]: [SignShop] Succesfully started Metrics, see http://mcstats.org for more information.
+[14:18:09] [Server thread/ERROR]: [SignShop] Vault plugin not enabled, SignShop can not run!
+[14:18:09] [Server thread/INFO]: [SignShop] Vault's permissions not found, defaulting to OP.
+[14:18:09] [Server thread/WARN]: [SignShop] Could not hook into Vault's Economy!
+[14:18:09] [Server thread/INFO]: [SignShop] Disabling SignShop v2.6.2
+[14:18:09] [Server thread/INFO]: [SignShop] Disabled
+[14:18:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:18:09] [Server thread/INFO]: Done (6.508s)! For help, type "help" or "?"
+[14:18:09] [Server thread/INFO]: Timings Reset
+[14:18:09] [Craft Scheduler Thread - 1/INFO]: [Metrics] Connection refused
+[14:18:09] [Server thread/INFO]: [BattleArena] has no scheduled events
+[14:18:09] [Craft Scheduler Thread - 0/WARN]: [Fatal Error] :1:1: Premature end of file.
+
+[14:18:09] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[14:18:09] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[14:18:09] [Craft Scheduler Thread - 2/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[14:18:58] [Thread-9/INFO]: UUID of player MATTEO is 4a0fe43c-a6cb-337b-8be3-b7b49612cbdb
+[14:18:58] [Server thread/INFO]: MATTEO[/[0:0:0:0:0:0:0:1]:50718] logged in with entity id 871 at ([world]-582.7630549757703, 95.0, 489.95303013539916)
+[14:19:21] [Thread-10/INFO]: UUID of player BRUH__ is 31352542-2f9c-3bc2-b9b7-be82b10312cb
+[14:19:21] [Server thread/INFO]: BRUH__[/[0:0:0:0:0:0:0:1]:36872] logged in with entity id 999 at ([world]-130.30000001192093, 9.5, 296.30000001192093)
+[14:21:57] [Server thread/INFO]: MATTEO issued server command: /home mine
+[14:22:34] [Server thread/INFO]: MATTEO issued server command: /home m
+[14:23:38] [Server thread/INFO]: MATTEO lost connection: Disconnected
+[14:23:38] [Server thread/INFO]: MATTEO left the game.
+[14:24:13] [Thread-12/INFO]: UUID of player MATTEO_ is 828964fa-44ca-35e0-92de-e7b6db29e2c6
+[14:24:13] [Server thread/INFO]: MATTEO_[/[0:0:0:0:0:0:0:1]:53896] logged in with entity id 1778 at ([world]-10.5, 68.0, 262.5)
+[14:24:42] [Server thread/INFO]: MATTEO_ issued server command: /tpa MATTEO
+[14:24:52] [Server thread/INFO]: MATTEO_ issued server command: /tpa MATTEO
+[14:24:56] [Thread-13/INFO]: UUID of player MATTEO is 4a0fe43c-a6cb-337b-8be3-b7b49612cbdb
+[14:24:56] [Server thread/INFO]: MATTEO[/[0:0:0:0:0:0:0:1]:58616] logged in with entity id 1945 at ([world]-588.8312902535334, 98.0, 521.5968902553072)
+[14:25:32] [Server thread/INFO]: MATTEO_ issued server command: /tpa MATTEO
+[14:25:38] [Server thread/INFO]: MATTEO issued server command: /tpaccept
+[14:26:08] [Server thread/INFO]: MATTEO_ lost connection: Disconnected
+[14:26:08] [Server thread/INFO]: MATTEO_ left the game.
+[14:26:51] [Server thread/INFO]: MATTEO issued server command: /home mine
+[14:28:09] [Craft Scheduler Thread - 7/INFO]: [Metrics] Connection refused
+[14:29:38] [Thread-14/INFO]: UUID of player SatillaABC123 is be649bbd-90a6-342f-b6f7-ff048670c66d
+[14:29:38] [Server thread/INFO]: SatillaABC123[/[0:0:0:0:0:0:0:1]:57500] logged in with entity id 3283 at ([world]1236.4664792150563, 69.0, 1348.895902304405)
+[14:30:28] [Server thread/INFO]: SatillaABC123 lost connection: Disconnected
+[14:30:28] [Server thread/INFO]: SatillaABC123 left the game.
+[14:35:52] [Server thread/INFO]: MATTEO issued server command: /home mine
+[14:38:09] [Craft Scheduler Thread - 12/INFO]: [Metrics] Connection refused
+[14:38:17] [Server thread/INFO]: MATTEO issued server command: /home m
+[14:42:19] [Thread-15/INFO]: UUID of player SatillaABC123 is be649bbd-90a6-342f-b6f7-ff048670c66d
+[14:42:19] [Server thread/INFO]: SatillaABC123[/[0:0:0:0:0:0:0:1]:52188] logged in with entity id 7327 at ([world]1259.8128299156047, 70.0, 1360.9294706519518)
+[14:45:09] [Craft Scheduler Thread - 15/WARN]: [Fatal Error] :1:1: Premature end of file.
+
+[14:48:09] [Craft Scheduler Thread - 17/INFO]: [Metrics] Connection refused
+[14:48:09] [Server thread/INFO]: BRUH__ issued server command: /home BRUH__
+[14:48:49] [Server thread/INFO]: SatillaABC123 issued server command: /gamemode 1
+[14:48:49] [Server thread/INFO]: [SatillaABC123: Set own game mode to Creative Mode]
+[14:48:53] [Server thread/INFO]: MATTEO lost connection: Disconnected
+[14:48:53] [Server thread/INFO]: MATTEO left the game.
+[14:51:22] [Server thread/INFO]: SatillaABC123 issued server command: /gamemode 0
+[14:51:22] [Server thread/INFO]: [SatillaABC123: Set own game mode to Survival Mode]
+[14:52:16] [Server thread/INFO]: SatillaABC123 issued server command: /gamemode 1
+[14:52:16] [Server thread/INFO]: [SatillaABC123: Set own game mode to Creative Mode]
+[14:52:28] [Server thread/INFO]: SatillaABC123 issued server command: /gamemode 0
+[14:52:28] [Server thread/INFO]: [SatillaABC123: Set own game mode to Survival Mode]
+[14:55:42] [Server thread/WARN]: SatillaABC123 moved wrongly!
+[14:57:40] [Server thread/WARN]: SatillaABC123 moved wrongly!
+[14:57:40] [Server thread/WARN]: SatillaABC123 moved wrongly!
+[14:58:09] [Craft Scheduler Thread - 23/INFO]: [Metrics] Connection refused
+[14:58:33] [Server thread/WARN]: SatillaABC123 moved wrongly!
+[15:03:23] [Server thread/INFO]: SatillaABC123 issued server command: /kick bruh__
+[15:03:23] [Server thread/INFO]: BRUH__ lost connection: Kicked by an operator.
+[15:03:23] [Server thread/INFO]: BRUH__ left the game.
+[15:03:23] [Server thread/INFO]: [SatillaABC123: Kicked BRUH__ from the game]
+[15:03:23] [Server thread/WARN]: handleDisconnection() called twice
+[15:03:29] [Thread-17/INFO]: UUID of player BRUH__ is 31352542-2f9c-3bc2-b9b7-be82b10312cb
+[15:03:29] [Server thread/INFO]: BRUH__[/[0:0:0:0:0:0:0:1]:58106] logged in with entity id 14908 at ([world]95.66914746053868, 62.0, 128.34574286206092)
+[15:04:15] [Server thread/INFO]: SatillaABC123 issued server command: /home farmob
+[15:05:58] [Server thread/INFO]: BRUH__ issued server command: /home scheletri
+[15:05:59] [Server thread/INFO]: SatillaABC123 issued server command: /tp satillaabc123 bruh__
+[15:05:59] [Server thread/INFO]: [SatillaABC123: Teleported SatillaABC123 to BRUH__]
+[15:06:04] [Server thread/INFO]: SatillaABC123 issued server command: /tp satillaabc123 bruh__
+[15:06:04] [Server thread/INFO]: [SatillaABC123: Teleported SatillaABC123 to BRUH__]
+[15:06:31] [Server thread/INFO]: SatillaABC123 issued server command: /home farmob
+[15:06:49] [Server thread/INFO]: SatillaABC123 issued server command: /tp bruh__ satillaabc123
+[15:06:49] [Server thread/INFO]: [SatillaABC123: Teleported BRUH__ to SatillaABC123]
+[15:07:16] [Server thread/INFO]: BRUH__ issued server command: /home scheletri
+[15:07:21] [Server thread/INFO]: SatillaABC123 issued server command: /tp satillaabc123 bruh__
+[15:07:21] [Server thread/INFO]: [SatillaABC123: Teleported SatillaABC123 to BRUH__]
+[15:07:50] [Server thread/INFO]: SatillaABC123 issued server command: /home home
+[15:08:09] [Craft Scheduler Thread - 26/INFO]: [Metrics] Connection refused
+[15:08:17] [Server thread/INFO]: SatillaABC123 issued server command: /tp satillaabc123 bruh__
+[15:08:17] [Server thread/INFO]: [SatillaABC123: Teleported SatillaABC123 to BRUH__]
+[15:08:38] [Server thread/INFO]: SatillaABC123 issued server command: /home home
+[15:08:54] [Server thread/INFO]: BRUH__ issued server command: /home BRUH__
+[15:10:59] [Server thread/INFO]: SatillaABC123 has just earned the achievement [Time to Farm!]
+[15:16:19] [Server thread/INFO]: BRUH__ lost connection: Disconnected
+[15:16:19] [Server thread/INFO]: BRUH__ left the game.
+[15:16:44] [Thread-18/INFO]: UUID of player BRUH__ is 31352542-2f9c-3bc2-b9b7-be82b10312cb
+[15:16:44] [Server thread/INFO]: BRUH__[/[0:0:0:0:0:0:0:1]:36796] logged in with entity id 20258 at ([world]136.01052189185734, 72.0, 106.75994741444622)
+[15:16:58] [Server thread/INFO]: SatillaABC123 issued server command: /home farmob
+[15:17:06] [Server thread/INFO]: SatillaABC123 issued server command: /tp bruh__ satillaabc123
+[15:17:06] [Server thread/INFO]: [SatillaABC123: Teleported BRUH__ to SatillaABC123]
+[15:17:13] [Server thread/INFO]: SatillaABC123 issued server command: /home home
+[15:18:09] [Craft Scheduler Thread - 30/INFO]: [Metrics] Connection refused
+[15:21:33] [Server thread/INFO]: SatillaABC123 issued server command: /tp satillaabc123 bruh__
+[15:21:33] [Server thread/INFO]: [SatillaABC123: Teleported SatillaABC123 to BRUH__]
+[15:22:34] [Server thread/INFO]: SatillaABC123 issued server command: /home home
+[15:25:11] [Thread-20/INFO]: UUID of player MATTEO_ is 828964fa-44ca-35e0-92de-e7b6db29e2c6
+[15:25:11] [Server thread/INFO]: MATTEO_[/[0:0:0:0:0:0:0:1]:44074] logged in with entity id 22477 at ([world]-593.3486529197141, 98.0, 521.9362215061407)
+[15:25:22] [Async Chat Thread - #0/INFO]: <SatillaABC123> entra su ds[m
+
+[15:25:41] [Async Chat Thread - #0/INFO]: <SatillaABC123> bruno ha detto che vuole un pompino da te[m
+
+[15:26:32] [Thread-21/INFO]: UUID of player MATTEO is 4a0fe43c-a6cb-337b-8be3-b7b49612cbdb
+[15:26:32] [Server thread/INFO]: MATTEO[/[0:0:0:0:0:0:0:1]:52086] logged in with entity id 22981 at ([world]-583.5228928518666, 95.0, 490.1031912218037)
+[15:27:18] [Server thread/INFO]: MATTEO was slain by MATTEO_
+[15:27:53] [Server thread/INFO]: MATTEO issued server command: /home mine
+[15:28:09] [Craft Scheduler Thread - 34/INFO]: [Metrics] Connection refused
+[15:28:22] [Server thread/INFO]: MATTEO issued server command: /home spawn
+[15:28:29] [Server thread/INFO]: MATTEO issued server command: /sethome spawner
+[15:28:44] [Server thread/INFO]: MATTEO_ issued server command: /tpa MATTEO
+[15:28:50] [Server thread/INFO]: MATTEO issued server command: /tpaccept
+[15:29:11] [Server thread/INFO]: MATTEO_ issued server command: /sethome spawner
+[15:29:19] [Server thread/INFO]: MATTEO_ has just earned the achievement [Taking Inventory]
+[15:30:01] [Server thread/INFO]: MATTEO lost connection: Disconnected
+[15:30:01] [Server thread/INFO]: MATTEO left the game.
+[15:30:32] [Server thread/INFO]: MATTEO_ issued server command: /back
+[15:30:54] [Server thread/INFO]: MATTEO_ issued server command: /sethome m
+[15:34:51] [Server thread/INFO]: MATTEO_ issued server command: /tpa BRUH__
+[15:38:08] [Server thread/INFO]: MATTEO_ issued server command: /home spawner
+[15:38:09] [Craft Scheduler Thread - 38/INFO]: [Metrics] Connection refused
+[15:41:43] [Server thread/INFO]: SatillaABC123 issued server command: /ic bruh__
+[15:41:54] [Server thread/INFO]: BRUH__ lost connection: Internal Exception: java.net.SocketException: Connection reset
+[15:41:54] [Server thread/INFO]: BRUH__ left the game.
+[15:42:02] [Server thread/INFO]: MATTEO_ lost connection: Disconnected
+[15:42:02] [Server thread/INFO]: MATTEO_ left the game.
+[15:42:07] [Thread-22/INFO]: UUID of player MATTEO_ is 828964fa-44ca-35e0-92de-e7b6db29e2c6
+[15:42:07] [Server thread/INFO]: MATTEO_[/[0:0:0:0:0:0:0:1]:54726] logged in with entity id 30558 at ([world]705.3253119349451, 11.0, -2270.5650885514237)
+[15:42:08] [Thread-23/INFO]: UUID of player BRUH__ is 31352542-2f9c-3bc2-b9b7-be82b10312cb
+[15:42:08] [Server thread/INFO]: BRUH__[/[0:0:0:0:0:0:0:1]:44920] logged in with entity id 30596 at ([world]-130.51955350555838, 9.5, 296.51667183470363)
+[15:42:13] [Server thread/INFO]: BRUH__ issued server command: /tpdeny
+[15:42:14] [Server thread/INFO]: BRUH__ issued server command: /tpdeny
+[15:42:27] [Server thread/INFO]: MATTEO_ issued server command: /home spawner
+[15:42:54] [Server thread/INFO]: MATTEO_ issued server command: /tpa BRUH__
+[15:45:09] [Craft Scheduler Thread - 42/WARN]: [Fatal Error] :1:1: Premature end of file.
+
+[15:47:41] [Server thread/INFO]: BRUH__ issued server command: /tpa MATTEO_
+[15:47:47] [Server thread/INFO]: MATTEO_ issued server command: /tpaccept
+[15:47:55] [Server thread/INFO]: SatillaABC123 lost connection: Disconnected
+[15:47:55] [Server thread/INFO]: SatillaABC123 left the game.
+[15:47:58] [Thread-24/INFO]: UUID of player SatillaABC123 is be649bbd-90a6-342f-b6f7-ff048670c66d
+[15:47:58] [Server thread/INFO]: SatillaABC123[/[0:0:0:0:0:0:0:1]:49516] logged in with entity id 33942 at ([world]1219.300000011921, 71.0, 1365.3059282121474)
+[15:48:09] [Craft Scheduler Thread - 43/INFO]: [Metrics] Connection refused
+[15:50:41] [Server thread/INFO]: BRUH__ issued server command: /tpa SatillaABC123
+[15:51:03] [Server thread/INFO]: SatillaABC123 issued server command: /home home
+[15:51:27] [Server thread/INFO]: SatillaABC123 issued server command: /accept
+[15:51:34] [Server thread/INFO]: BRUH__ issued server command: /tpa SatillaABC123
+[15:51:37] [Server thread/INFO]: SatillaABC123 issued server command: /accept
+[15:51:55] [Server thread/INFO]: SatillaABC123 issued server command: /accept
+[15:51:57] [Server thread/INFO]: BRUH__ issued server command: /tpa SatillaABC123
+[15:51:59] [Server thread/INFO]: SatillaABC123 issued server command: /accept
+[15:52:27] [Server thread/INFO]: SatillaABC123 issued server command: /home home
+[15:52:39] [Server thread/INFO]: MATTEO_ issued server command: /home m
+[15:55:14] [Server thread/INFO]: SatillaABC123 issued server command: /xp satillaabc123 10 level
+[15:55:14] [Server thread/INFO]: [SatillaABC123: 'satillaabc123' is not a valid number]
+[15:58:09] [Craft Scheduler Thread - 46/INFO]: [Metrics] Connection refused
+[15:58:37] [Server thread/INFO]: MATTEO_ issued server command: /tpa SatillaABC123
+[15:58:55] [Server thread/INFO]: SatillaABC123 issued server command: /accept
+[16:00:03] [Server thread/INFO]: SatillaABC123 issued server command: /home farmob
+[16:00:14] [Server thread/INFO]: SatillaABC123 issued server command: /tphere MATTEO_
+[16:00:29] [Server thread/INFO]: SatillaABC123 issued server command: /TP MATTEO_ SATILLAABC123
+[16:00:29] [Server thread/INFO]: [SatillaABC123: Teleported MATTEO_ to SatillaABC123]
+[16:00:31] [Server thread/INFO]: BRUH__ issued server command: /home BRUH__
+[16:00:37] [Server thread/INFO]: SatillaABC123 issued server command: /home home
+[16:00:41] [Server thread/INFO]: SatillaABC123 issued server command: /TP MATTEO_ SATILLAABC123
+[16:00:41] [Server thread/INFO]: [SatillaABC123: Teleported MATTEO_ to SatillaABC123]
+[16:01:04] [Async Chat Thread - #1/INFO]: <SatillaABC123> O SCUSA[m
+
+[16:01:11] [Async Chat Thread - #1/INFO]: <SatillaABC123> ADESSO TI TIPPIZZO[m
+
+[16:01:15] [Server thread/INFO]: SatillaABC123 issued server command: /GAMEMODE 3
+[16:01:15] [Server thread/INFO]: [SatillaABC123: Set own game mode to Spectator Mode]
+[16:01:42] [Server thread/INFO]: SatillaABC123 issued server command: /BAN MATTEO_
+[16:01:42] [Server thread/INFO]: MATTEO_ lost connection: You are banned from this server.
+[16:01:42] [Server thread/INFO]: MATTEO_ left the game.
+[16:01:42] [Server thread/INFO]: [SatillaABC123: Banned player MATTEO_]
+[16:01:42] [Server thread/WARN]: handleDisconnection() called twice
+[16:02:06] [Thread-26/INFO]: UUID of player MATTEO is 4a0fe43c-a6cb-337b-8be3-b7b49612cbdb
+[16:02:07] [Server thread/INFO]: MATTEO[/[0:0:0:0:0:0:0:1]:36200] logged in with entity id 41575 at ([world]612.4775560899627, 11.0, -2290.9261197895844)
+[16:02:08] [Server thread/INFO]: SatillaABC123 issued server command: /BAN MATTEO
+[16:02:08] [Server thread/INFO]: MATTEO lost connection: You are banned from this server.
+[16:02:08] [Server thread/INFO]: MATTEO left the game.
+[16:02:08] [Server thread/INFO]: [SatillaABC123: Banned player MATTEO]
+[16:02:08] [Server thread/WARN]: handleDisconnection() called twice
+[16:04:25] [Server thread/INFO]: SatillaABC123 issued server command: /HOMEREMOVE home
+[16:04:30] [Server thread/INFO]: SatillaABC123 issued server command: /help home
+[16:07:05] [Server thread/INFO]: BRUH__ issued server command: /home ragni
+[16:07:27] [Server thread/INFO]: BRUH__ issued server command: /home BRUH__
+[16:08:09] [Craft Scheduler Thread - 50/INFO]: [Metrics] Connection refused
+[16:10:12] [Server thread/INFO]: BRUH__ issued server command: /home ragni
+[16:10:19] [Server thread/INFO]: SatillaABC123 issued server command: /home.admin
+[16:10:34] [Server thread/INFO]: BRUH__ issued server command: /bellhome farm
+[16:10:48] [Server thread/INFO]: BRUH__ issued server command: /belhome farm
+[16:10:55] [Async Chat Thread - #2/INFO]: <SatillaABC123> homes.admin[m
+
+[16:10:56] [Server thread/INFO]: BRUH__ issued server command: /bellhome farm
+[16:11:00] [Server thread/INFO]: SatillaABC123 issued server command: /homes.admin
+[16:11:21] [Server thread/INFO]: SatillaABC123 issued server command: /homes.admin BRUH__ BRUH__
+[16:14:07] [Async Chat Thread - #3/INFO]: <BRUH__> posso tiparmi alla tua farm o uella di lorenzo?[m
+
+[16:15:14] [Server thread/INFO]: BRUH__ issued server command: /delhome farm
+[16:16:03] [Server thread/INFO]: BRUH__ issued server command: /home BRUH__
+[16:18:09] [Craft Scheduler Thread - 55/INFO]: [Metrics] Connection refused
+[16:20:35] [Server thread/INFO]: SatillaABC123 issued server command: /homes.admin BRUH__ BRUH__
+[16:21:10] [Server thread/INFO]: SatillaABC123 issued server command: /tp satillaabc123 bruh__
+[16:21:10] [Server thread/INFO]: [SatillaABC123: Teleported SatillaABC123 to BRUH__]
+[16:21:19] [Async Chat Thread - #4/INFO]: <SatillaABC123> bruno[m
+
+[16:21:22] [Async Chat Thread - #4/INFO]: <SatillaABC123> entra su ds[m
+
+[16:21:25] [Async Chat Thread - #4/INFO]: <SatillaABC123> perfa[m
+
+[16:21:27] [Async Chat Thread - #4/INFO]: <BRUH__> non posso[m
+
+[16:21:31] [Async Chat Thread - #4/INFO]: <BRUH__> ci sono i miei[m
+
+[16:21:32] [Async Chat Thread - #4/INFO]: <SatillaABC123> percheeeeeee[m
+
+[16:21:34] [Async Chat Thread - #4/INFO]: <SatillaABC123> daiiii[m
+

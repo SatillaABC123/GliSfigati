@@ -1,0 +1,8 @@
+brokenArenas: {}
+arenas:
+  duello:
+    teamSize: '10'
+    locations:
+      '0': world,10020.363106292043,63.0,9909.610720142486,82.85779,90.0
+    type: Colosseum
+    nTeams: 2+

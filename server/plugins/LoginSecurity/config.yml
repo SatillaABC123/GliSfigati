@@ -22,7 +22,7 @@ join:
   location: DEFAULT
   # Safely hides the player's inventory until the player is logged in
   # This required ProtocolLib to be installed
-  hide-inventory-safe: false
+  hide-inventory-safe: true
 username:
   # Remove special characters like @ and # from the username.
   # Disabling this can be a security risk!
@@ -31,7 +31,7 @@ username:
   max-length: 16
 # Shortcut that can be used as alternative to login/register command. Does not replace the defaults
 command-shortcut:
-  enabled: false
+  enabled: true
   login: /l
   register: /reg
 updater:
@@ -41,7 +41,7 @@ updater:
 # Session timeout in seconds, set to -1 to disable.
 session-timeout: 0
 # Login timeout in seconds, set to -1 to disable.
-login-timeout: 30
+login-timeout: 60
 # Login/register message delay in seconds.
 login-message-delay: 10
 # Language for messages, check wiki for more info.

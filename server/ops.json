@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "be649bbd-90a6-342f-b6f7-ff048670c66d",
+    "name": "SatillaABC123",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "40c73079-eb42-3445-9f3c-c31a5964a44a",
+    "name": "Admin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1a32e40e-1c1e-3d6f-b1f7-f974df1c1f43",
+    "name": "AKDE2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3aa10d45-6372-352e-b9af-2eba497ed912",
+    "name": "___",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "314721ed-0b2f-30e6-a6ea-f3208420f734",
+    "name": "AKDE",
+    "level": 100,
+    "bypassesPlayerLimit": true
+  }
+]

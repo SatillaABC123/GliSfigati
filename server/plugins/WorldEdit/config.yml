@@ -42,8 +42,7 @@ logging:
 
 super-pickaxe:
     drop-items: true
-    many-drop-items: false
-
+    many-drop-items: true
 snapshots:
     directory:
 

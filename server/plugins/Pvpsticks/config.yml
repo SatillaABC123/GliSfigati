@@ -1,0 +1,50 @@
+# Config file of Pvpsticks v2.1.0
+
+pvpsticks:
+  version: 210              # Don't edit this!
+  check-for-updates: true   # Set this to false to disable checking for updates
+
+# You can write behind head, body, legs or feet the ID of the armour that you want.
+# Link to all item ID's: http://www.minecraftwiki.net/wiki/Data_values#Item_IDs
+# Other link: http://minecraft-ids.grahamedgecombe.com/
+armour:
+  knockback:
+    head: 
+    body: 307
+    legs: 
+    feet: 
+  fire: 
+    head: 
+    body: 307
+    legs: 
+    feet: 
+  sharpness: 
+    head: 
+    body: 307
+    legs: 
+    feet: 
+  arrow: 
+    head: 
+    body: 307
+    legs: 
+    feet: 
+  god: 
+    head: 
+    body: 307
+    legs: 
+    feet: 
+    
+    
+# You don't have to edit this when you don't want economy support!
+
+economy:
+  economy-support: false
+  withdraw-on-sign-click: true
+  withdraw-on-command: false
+
+costs:
+  knockback: 0
+  fire: 0
+  sharpness: 0
+  arrow: 0
+  god: 0

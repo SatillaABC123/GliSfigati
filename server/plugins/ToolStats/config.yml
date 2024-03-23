@@ -1,0 +1,55 @@
+###Tool Stats Configuration File###
+
+#Options:
+#---------------------------------------------------
+#Delete Stats Will Remove The Stats From Tools
+#That Are No Longer Being Tracked
+
+#Setting The "Use Universal Color" Option To True
+#Will Make The Stats For All Tools The Universal
+#Color.
+
+#Setting The "Use Permissions" Option To True Will
+#Option The Stats For All Tools The Universal Color.
+#Permissions Can Be Found here:
+#http://i.imgur.com/pQ6mw4N.png
+#----------------------------------------------------
+
+#Colors:
+#----------------------------------------------------
+#To Change The Color Of Any Tool Put The Number
+#That Represents Your Preferred Color. If You Want An 
+#Effect, Such As Bold, Put A Colon (;) After The Last
+#Character Followed By The Letter That Represents The
+#Effect.
+ 
+#Color Values Can Be Found Here:
+#http://i.imgur.com/qYO7cJB.png
+#----------------------------------------------------
+
+#Tools:
+#----------------------------------------------------
+#To Stop ToolStats From Tracking Specific Tools, Set
+#Said Tool To False.
+#----------------------------------------------------
+
+Tool Stats:
+  Options:
+    Delete Stats On Untracked Tools: false
+    Use Universal Color: true
+    Use Permissions: false
+  Colors:
+    Universal Color: 5;o
+    PickAxe Color: 5;o
+    Axe Color: 5;o
+    Shovel Color: 5;o
+    Hoe Color: 5;o
+    Sword Color: 5;o
+    Bow Color: 5;o
+  Tools:
+    Track PickAxe Stats: true
+    Track Axe Stats: true
+    Track Shovel Stats: true
+    Track Hoe Stats: true
+    Track Sword Stats: true
+    Track Bow Stats: true

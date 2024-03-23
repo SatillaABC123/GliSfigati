@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&2Server &5Degli &cSfigati&3!!! &eVasilii &7 &2GAY&d!!!'
   allow_motd: true
   allow_query: true
   request_motd_cache:

@@ -19,7 +19,7 @@
 # homes.admin : Able to view, visit, set or remove homes of other players
 
 # Enable / disable the teleport countdown
-do-teleport-wait: true
+do-teleport-wait: false
 
 # The countdown before teleportation (in seconds)
 teleport-wait: 5
@@ -40,7 +40,7 @@ overwrite-homes: false
 multi-world: true
 
 # Should the teleport be cancelled if you move while waiting
-cancel-on-move: true
+cancel-on-move: false
 # The message to send if you move while waiting and cancel-on-move is true
 move-cancel-message: "&cYou moved, teleport cancelled"
 
@@ -60,7 +60,7 @@ teleport-color: "&a"
 teleport-message: "Teleported!"
 
 # Message to show when at maximum home count
-max-homecount-message: "&cYou have reached the maximum amount of homes"
+max-homecount-message: "&cBastardo quante home hai messo il limite è di 5 scrivi /delhome (nome) per cancellare una home"
 
 # Message to show when trying to access admin commands without homes.admin
 invalid-perm-message: "&cInvalid permissions"
